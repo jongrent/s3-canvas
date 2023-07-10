@@ -19,7 +19,7 @@ function dibujaCirculo() {
 function dibujaContorno() {
     const grad = ctx.createRadialGradient(0,0, radius * 0.95, 0, 0, radius * 1.05);
     grad.addColorStop(0, '#363');
-    grad.addColorStop(0.5, 'blue');
+    grad.addColorStop(0.5, 'yellow');
     grad.addColorStop(1, 'red');
 
     ctx.beginPath();
